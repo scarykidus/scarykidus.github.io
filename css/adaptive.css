@@ -1,0 +1,154 @@
+@media screen and (max-width: 768px) {
+  .text_news {
+    text-align: center;
+  }
+
+  .text_simple {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .text_basic {
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+  .form__item {
+    flex-direction: column;
+  }
+
+  .field {
+    width: 97%;
+    margin-top: 10px;
+  }
+
+  .title_medium {
+    font-size: 21px;
+    line-height: 36px;
+  }
+
+  .title_big {
+    font-size: 20px;
+  }
+
+  .title__header_special {
+    font-size: 24px;
+  }
+
+  .section-item__posts {
+    padding: 30px 0 38px 0;
+  }
+
+  .section-item__main {
+    padding: 36px 0;
+  }
+
+  .section-item__text {
+    padding-top: 30px;
+  }
+
+  .section-item__text_visualSmall {
+    display: none;
+  }
+
+  .section-item__text_visualBig {
+    display: block;
+  }
+
+  .section-item__header {
+    padding-top: 40px;
+    border-bottom: 0;
+  }
+
+  .section-item__header-text {
+    padding-bottom: 55px;
+  }
+
+  .section-item__header-text_decktop {
+    display: none;
+  }
+
+  .section-item__header-text_mobile {
+    display: block;
+    padding-bottom: 0px;
+  }
+
+  .section-item__header-img {
+    margin: 20px 0;
+  }
+
+  .data:before {
+    display: none;
+  }
+
+  .btn {
+    border-radius: 4px;
+    background-color: #0062ff;
+    color: #ffffff;
+    max-width: 720px;
+    text-align: center;
+  }
+
+  .section-item__posts {
+    flex-wrap: wrap;
+    height: 80%;
+    margin: 0 auto;
+  }
+
+  .news__item {
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 25px;
+  }
+}
+
+@media screen and (max-width: 694px) {
+  .title_medium h3 {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .section-item__text_visualSmall {
+    display: block;
+
+    margin: 0 auto;
+  }
+
+  .section-item__text_visualSmall img {
+    width: 300px;
+  }
+
+  .section-item__text_visualBig {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .image__slider {
+    width: 100%;
+  }
+  .btn {
+    border-radius: 4px;
+    background-color: #0062ff;
+    color: #ffffff;
+    max-width: 520px;
+    text-align: center;
+  }
+
+  .news__item {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .section-item__text_visualSmall {
+    display: block;
+  }
+
+  .section-item__text_visualBig {
+    display: none;
+  }
+}
